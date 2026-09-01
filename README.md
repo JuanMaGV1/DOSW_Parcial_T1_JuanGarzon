@@ -32,8 +32,16 @@
 
 **Requerimientos Funcionales:**
 - **UFH-01**: Registrar usuario.
+
+El cliente debe poder crear una cuenta con su correo institucional para acceder al sistema.
+
 - **UFH-02**: Crear pedido (Builder).
+
+El cliente debe poder armar un pedido seleccionando productos y agregando extras.
+
 - **UFH-03**: Seleccionar tipo de entrega (Decorator).
+
+El cliente debe poder elegir entre Consumo Local, Para Llevar o Entrega en Salon, con sus respectivos costos y reglas.
 
 **Requerimientos No Funcionales**
 
