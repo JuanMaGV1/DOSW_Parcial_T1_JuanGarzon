@@ -20,11 +20,7 @@
 
 - **Cocinero:** Personal de comida encargado de llevar a cabo el pedido realizado.
 
-- **Delivery:** Personal encargado de llevar los pedidos que tengan preferencias de entrega diferentes a "Consumo Local".
-
-**Sistema:**
-
-La decisión de separación entre Front-End y Back-End, fue porque 
+- **Delivery:** Personal encargado de llevar los pedidos que tengan preferencias de entrega iguales a "Entrega Salon".
 
 **Sistemas externos:**
 
