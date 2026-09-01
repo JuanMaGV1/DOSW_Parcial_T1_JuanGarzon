@@ -55,6 +55,12 @@ El cliente debe poder elegir entre Consumo Local, Para Llevar o Entrega en Salon
 
 ### **PUNTO 4 - ANALISIS DE REQUERIMIENTOS**
 
+Pantallas generadas:
+
+![alt text](/DOSW-ParcialT1/docs/images/UFH-RF-01.png)
+
+![alt text](/DOSW-ParcialT1/docs/requirements/UFH-02.pdf)
+
 ### **PUNTO 5 - DESCOMPOSICION DE TAREAS**
 
 ### **PUNTO 6 - PATRONES DE DISEÑO**
