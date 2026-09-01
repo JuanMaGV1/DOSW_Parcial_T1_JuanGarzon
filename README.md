@@ -63,7 +63,28 @@ Pantallas generadas:
 
 ### **PUNTO 5 - DESCOMPOSICION DE TAREAS**
 
+***Epica:*** UFH-EPIC-01
+Aplicación Web Cafetería Escuela Colombiana de Ingeniería.
+
+**Feature:** FEAT-01
+Crear pedido.
+
+**Historia de usuario:**
+Como: Cliente
+Quiero: Crear pedido
+Para: Pedir la comida que quiero
+
+**Tareas:**
+- TASK-01: Crear entidad de Usuario en AWS Mongo Atlas.
+- TASK-02: Crear entidad de Pedido en AWS Mongo Atlas.
+- TASK-03: Relacionar entidad Usuario y Pedido.
+- TASK-04: Conectar con AWS S3 Buckets, para generar reportes.
+
 ### **PUNTO 6 - PATRONES DE DISEÑO**
+
+- **Builder (Creacional):** Porque ayuda a construir los extras del pedido sin necesidad de atributos o clases adicionales.
+
+- **Decorator (Estructural):** Porque nos ayuda a definir el metodo de entrega, para un pedido que ya ha sido creado, sin necesitar de modificar el pedido original.
 
 ### **PUNTO 7 - SOLUCIÓN**
 
