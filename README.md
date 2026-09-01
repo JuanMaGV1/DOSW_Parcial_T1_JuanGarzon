@@ -30,6 +30,17 @@
 
 ### **PUNTO 2 - REQUERIMIENTOS**
 
+**Requerimientos Funcionales:**
+- **UFH-01**: Registrar usuario.
+- **UFH-02**: Crear pedido (Builder).
+- **UFH-03**: Seleccionar tipo de entrega (Decorator).
+
+**Requerimientos No Funcionales**
+
+- **UFH-RNF-01**: El sistema debe Responder en ≤ 1.5s para el 90% de las peticiones (Accesibilidad).
+
+- **UFH-RNF-02**: El sistema debe soportar hasta 300 pedidos simultáneos en horario pico. (Accesibilidad)
+
 ### **PUNTO 3 - DIAGRAMA CASOS DE USO**
 
 ### **PUNTO 4 - ANALISIS DE REQUERIMIENTOS**
