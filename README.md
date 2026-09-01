@@ -82,9 +82,25 @@ Para: Pedir la comida que quiero
 
 ### **PUNTO 6 - PATRONES DE DISEÑO**
 
-- **Builder (Creacional):** Porque ayuda a construir los extras del pedido sin necesidad de atributos o clases adicionales.
+- **Builder (Creacional):** Un pedido puede tener múltiples productos, cada uno con una lista variable de extras, y además un tipo de entrega. Construir este objeto mediante un constructor tradicional con muchos parámetros opcionales sería poco manejable y propenso a errores. El Builder permite construir el pedido paso a paso, añadiendo productos y extras de forma clara y manteniendo la inmutabilidad una vez construido
 
-- **Decorator (Estructural):** Porque nos ayuda a definir el metodo de entrega, para un pedido que ya ha sido creado, sin necesitar de modificar el pedido original.
+**Principios SOLID**
+
+Single Responsibility (SRP): La clase Pedido solo representa el objeto final; la lógica de construcción está separada en PedidoBuilder.
+
+Open/Closed (OCP): Se pueden añadir nuevos pasos de construcción (p. ej., aplicar descuentos) sin modificar Pedido ni el cliente, solo extendiendo el Builder.
+
+Dependency Inversion (DIP): El Builder depende de abstracciones (Producto, Extra) y no de implementaciones concretas.
+
+- **Decorator (Estructural):** El costo de entrega varía según la modalidad elegida (Consumo Local: $0, Para Llevar: $300, Entrega en Salón: $1000) y además la entrega en salón tiene reglas adicionales (bloque y salón). El Decorator permite añadir dinámicamente el costo de entrega y las reglas asociadas a un pedido sin modificar la clase Pedido ni sus subclases. Esto mantiene el diseño flexible y extensible ante nuevos tipos de entrega en el futuro.
+
+**Principios SOLID**
+
+Open/Closed (OCP): Se pueden agregar nuevos tipos de entrega creando nuevos decoradores (por ejemplo, EntregaDomicilio) sin alterar el código existente.
+
+Liskov Substitution (LSP): Los decoradores son intercambiables con el componente original (Pedido), ya que implementan la misma interfaz IPedido (o extienden Pedido).
+
+Single Responsibility (SRP): Cada decorador se encarga de una única responsabilidad (calcular el costo adicional y las reglas de esa entrega).
 
 ### **PUNTO 7 - SOLUCIÓN**
 
