@@ -68,6 +68,10 @@ Para: Pedir la comida que quiero
 
 ### **PUNTO 6 - PATRONES DE DISEÑO**
 
+- **Builder (Creacional):** Porque ayuda a construir los extras del pedido sin necesidad de atributos o clases adicionales.
+
+- **Decorator (Estructural):** Porque nos ayuda a definir el metodo de entrega, para un pedido que ya ha sido creado, sin necesitar de modificar el pedido original.
+
 ### **PUNTO 7 - SOLUCIÓN**
 
 ## Evidencias
