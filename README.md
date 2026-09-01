@@ -43,6 +43,8 @@
 
 ### **PUNTO 3 - DIAGRAMA CASOS DE USO**
 
+![alt text](/DOSW-ParcialT1/docs/uml/DiagramasCasoDeUso.drawio.png)
+
 ### **PUNTO 4 - ANALISIS DE REQUERIMIENTOS**
 
 ### **PUNTO 5 - DESCOMPOSICION DE TAREAS**
