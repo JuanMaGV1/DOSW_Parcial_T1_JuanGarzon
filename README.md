@@ -59,7 +59,7 @@ Pantallas generadas:
 
 ![alt text](/DOSW-ParcialT1/docs/images/UFH-RF-01.png)
 
-![alt text](/DOSW-ParcialT1/docs/requirements/UFH-02.pdf)
+![alt text](/DOSW-ParcialT1/docs/images/UFH-02.pdf)
 
 ### **PUNTO 5 - DESCOMPOSICION DE TAREAS**
 
@@ -103,6 +103,8 @@ Liskov Substitution (LSP): Los decoradores son intercambiables con el componente
 Single Responsibility (SRP): Cada decorador se encarga de una única responsabilidad (calcular el costo adicional y las reglas de esa entrega).
 
 ### **PUNTO 7 - SOLUCIÓN**
+
+![alt text](/DOSW-ParcialT1/docs/images/Compilado.png)
 
 ## Evidencias
 
